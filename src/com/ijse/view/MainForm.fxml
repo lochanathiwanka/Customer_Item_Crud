@@ -7,24 +7,21 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="528.0" prefWidth="842.0" xmlns="http://javafx.com/javafx/8.0.171"
-            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ijse.controller.MainForm">
+<AnchorPane prefHeight="528.0" prefWidth="842.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ijse.controller.MainForm">
     <Button layoutX="49.0" layoutY="226.0" mnemonicParsing="false" onAction="#btnCustomerPaneOnAction" text="Customer">
         <cursor>
-          <Cursor fx:constant="HAND"/>
+          <Cursor fx:constant="HAND" />
         </cursor>
     </Button>
-    <Button layoutX="49.0" layoutY="278.0" mnemonicParsing="false" onAction="#btnItemPaneOnAction" prefHeight="25.0"
-            prefWidth="68.0" text="Item">
+    <Button layoutX="49.0" layoutY="278.0" mnemonicParsing="false" onAction="#btnItemPaneOnAction" prefHeight="25.0" prefWidth="68.0" text="Item">
         <cursor>
-          <Cursor fx:constant="HAND"/>
+          <Cursor fx:constant="HAND" />
         </cursor>
     </Button>
-    <Line endX="-50.0" endY="334.0" layoutX="302.0" layoutY="178.0" startX="-50.0" startY="-170.0"/>
+    <Line endX="-50.0" endY="334.0" layoutX="302.0" layoutY="178.0" startX="-50.0" startY="-170.0" />
     <Label layoutX="362.0" layoutY="216.0" text="Simple Crud Application">
         <font>
-          <Font name="System Bold" size="30.0"/>
+          <Font name="System Bold" size="30.0" />
         </font>
     </Label>
 </AnchorPane>
