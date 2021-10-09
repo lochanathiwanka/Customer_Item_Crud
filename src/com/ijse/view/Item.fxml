@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="448.0" prefWidth="568.0" xmlns="http://javafx.com/javafx/8.0.171"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ijse.controller.Item">
+    <Label layoutX="270.0" layoutY="47.0" text="Item">
+        <font>
+          <Font name="System Bold" size="25.0"/>
+        </font>
+    </Label>
+    <TextField fx:id="txtCode" layoutX="210.0" layoutY="131.0" promptText="CODE"/>
+    <TextField fx:id="txtDescription" layoutX="210.0" layoutY="180.0" promptText="Description"/>
+    <TextField fx:id="txtPrice" layoutX="210.0" layoutY="235.0" promptText="Price"/>
+    <Button layoutX="264.0" layoutY="299.0" mnemonicParsing="false" onAction="#btnSaveOnAction"
+            style="-fx-background-color: green;" text="Save" textFill="WHITE"/>
+</AnchorPane>

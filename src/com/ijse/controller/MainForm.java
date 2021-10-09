@@ -15,6 +15,9 @@ public class MainForm {
         childPane.getChildren().setAll(pane.getChildren());
     }
 
-    public void btnItemPaneOnAction(ActionEvent actionEvent) {
+    public void btnItemPaneOnAction(ActionEvent actionEvent) throws IOException {
+        childPane.getChildren().clear();
+        AnchorPane pane = FXMLLoader.load(this.getClass().getResource("../view/Item.fxml"));
+        childPane.getChildren().setAll(pane.getChildren());
     }
 }
