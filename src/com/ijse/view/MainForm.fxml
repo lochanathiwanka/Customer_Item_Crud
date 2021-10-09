@@ -26,5 +26,5 @@
             </font>
         </Label>
     </AnchorPane>
-   <Label layoutX="46.0" layoutY="488.0" text="v1.0.0 by Lochana Thiwanka" />
+   <Label layoutX="34.0" layoutY="488.0" text="v1.0.0 by Lochana Thiwanka @ 2021" />
 </AnchorPane>
