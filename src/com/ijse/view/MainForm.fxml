@@ -24,4 +24,5 @@
           <Font name="System Bold" size="30.0" />
         </font>
     </Label>
+   <AnchorPane fx:id="childPane" layoutX="261.0" layoutY="40.0" prefHeight="448.0" prefWidth="568.0" />
 </AnchorPane>
